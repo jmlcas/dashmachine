@@ -1,7 +1,6 @@
-# dashmachine
-DashMachine - Dashboard Apps - Docker compose
+# Dashmachine
 
-Ver en "localhost:8200"
+Ver en "http://localhost:8200"
 
 Username: admin
 
