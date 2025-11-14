@@ -1,14 +1,11 @@
-version: "3.3"
-
 services:
 
   dashmachine:
-    image: rmountjoy/dashmachine:v0.5-4
+    image: rmountjoy/dashmachine:latest
     container_name: dashmachine
     volumes:
       - ./app_data:/dashmachine/dashmachine/user_data
     ports:
       - "8200:5000"
-    restart: unless-stopped
+    restart: unless-stopped  
 
-    
